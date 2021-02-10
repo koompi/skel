@@ -9,5 +9,5 @@ md5sums=('SKIP')
 
 package() {
     mkdir -p ${pkgdir}/etc
-    cp -r ${srcdir}/skel ${pkgdir}/etc
+    cp -r ${srcdir}/${pgkname}/skel ${pkgdir}/etc
 }
