@@ -106,7 +106,6 @@ ForegroundPositive=39,174,96
 ForegroundVisited=82,148,226
 
 [General]
-ColorScheme=Qogirdark
 Name=Qogirdark-modified
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -117,15 +116,11 @@ smallestReadableFont=Inter,8,-1,5,50,0,0,0,0,0
 toolBarFont=Inter,10,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
-[Icons]
-Theme=la-capitaine
-
 [KDE]
 ColorScheme=Breeze
 LookAndFeelPackage=org.koompi.theme.koompi-dark
 SingleClick=false
 contrast=4
-widgetStyle=kvantum-dark
 
 [KScreen]
 ScaleFactor=1.25

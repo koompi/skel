@@ -6,8 +6,13 @@ ShowMenuBarByDefault=false
 
 [MainWindow]
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABgAAAAMkAAAABAAAAAQAAAAIAAAACPwAAAAA
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABAAAAAKJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIBAAACTf////8AAAAAAAAAAA==
+StatusBar=Disabled
 ToolBarsMovable=Disabled
+Virtual-1 Window-Maximized 1024x768=true
+Virtual-1 XPosition 1024x768=217
+Virtual-1 YPosition 1024x768=371
 eDP-1 Window-Maximized 1536x864=true
 eDP-1 XPosition=0
 eDP-1 YPosition=60
