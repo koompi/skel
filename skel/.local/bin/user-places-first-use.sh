@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sed -i "s/home\/dummy/home\/${USER}/g" /home/brilliant/Projects/skel/skel/.local/share/user-places.xbel;
+sed -i "s/home\/dummy/home\/${USER}/g" $HOME/.local/share/user-places.xbel
 mkdir -p $HOME/Desktop
 mkdir -p $HOME/Documents
 mkdir -p $HOME/Downloads

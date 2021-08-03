@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=/home/brilliant/Projects/skel/skel/.local/bin/user-places-first-use.sh
+Exec=$HOME/.local/bin/user-places-first-use.sh
 Icon=dialog-scripts
 Name=user-places-first-use.sh
 Path=
