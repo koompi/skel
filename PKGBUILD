@@ -10,4 +10,12 @@ md5sums=('SKIP')
 package() {
     mkdir -p ${pkgdir}/etc
     cp -r ${srcdir}/koompi-skel/skel/ ${pkgdir}/etc/
+    mkdir -p ${pkgdir}/etc/skel/Desktop
+    mkdir -p ${pkgdir}/etc/skel/Documents
+    mkdir -p ${pkgdir}/etc/skel/Downloads
+    mkdir -p ${pkgdir}/etc/skel/Music
+    mkdir -p ${pkgdir}/etc/skel/Pictures
+    mkdir -p ${pkgdir}/etc/skel/Public
+    mkdir -p ${pkgdir}/etc/skel/Templates
+    mkdir -p ${pkgdir}/etc/skel/Videos
 }
