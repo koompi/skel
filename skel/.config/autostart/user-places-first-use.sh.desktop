@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/brilliant/Projects/skel/skel/.local/bin/user-places-first-use.sh
+Icon=dialog-scripts
+Name=user-places-first-use.sh
+Path=
+Type=Application
+X-KDE-AutostartScript=true

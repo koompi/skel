@@ -1,5 +1,5 @@
 pkgname=koompi-skel
-pkgver=20210802
+pkgver=20210803
 pkgrel=1
 pkgdesc="Default user home template for KOOMPI OS"
 arch=('any')
