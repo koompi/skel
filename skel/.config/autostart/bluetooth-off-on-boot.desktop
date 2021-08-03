@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=$HOME.local/bin/bluetooth-off-on-boot.sh
+Exec=$HOME/.local/bin/bluetooth-off-on-boot.sh
 Icon=dialog-scripts
 Name=bluetooth-off-on-boot.sh
 Path=
