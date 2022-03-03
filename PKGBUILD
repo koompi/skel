@@ -1,14 +1,12 @@
 pkgname=koompi-skel
-pkgver=20210803
-pkgrel=4
+pkgver=20220303
+pkgrel=1
 pkgdesc="Default user home template for KOOMPI OS"
 arch=('any')
 url=https://koompi.org
 source=('koompi-skel::git+https://github.com/koompi/skel.git')
 md5sums=('SKIP')
-provides=('bashrc' 'bash_profile')
-replaces=('bashrc' 'bash_profile')
-
+install=("install")
 package() {
     mkdir -p ${pkgdir}/etc
     cp -r ${srcdir}/koompi-skel/skel/ ${pkgdir}/etc/
