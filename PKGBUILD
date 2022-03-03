@@ -6,7 +6,7 @@ arch=('any')
 url=https://koompi.org
 source=('koompi-skel::git+https://github.com/koompi/skel.git')
 md5sums=('SKIP')
-install=("install")
+install="install"
 package() {
     mkdir -p ${pkgdir}/etc
     cp -r ${srcdir}/koompi-skel/skel/ ${pkgdir}/etc/
