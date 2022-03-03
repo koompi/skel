@@ -1,5 +1,4 @@
 [ActionPlugins][0]
-MiddleButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 wheel:Vertical;NoModifier=org.kde.switchdesktop
 
@@ -41,6 +40,10 @@ length=7
 immutability=1
 plugin=launchpadPlasmaMod
 
+[Containments][159][Applets][161][Configuration][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
+
 [Containments][159][Applets][161][Configuration][General]
 customButtonImage=file:///usr/share/icons/koompi/koompi-white.svg
 favoritesPortedToKAstats=true
@@ -50,7 +53,6 @@ numberRows=5
 spaceHeight=32
 spaceWidth=42
 useCustomButtonImage=true
-useCustomSizeGrid=true
 
 [Containments][159][Applets][161][Shortcuts]
 global=Alt+F1
@@ -68,14 +70,14 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][159][Applets][163][Configuration][General]
-launchers=applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop
+launchers=applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop
 
 [Containments][159][Applets][164]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][159][Applets][164][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 SystrayContainmentId=165
 
 [Containments][159][Applets][179]
@@ -185,14 +187,45 @@ plugin=org.kde.plasma.weather
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][165][Applets][185][Configuration]
+PreloadWeight=55
+
 [Containments][165][Applets][186]
 immutability=1
-plugin=org.kde.plasma.networkmanagement
+plugin=org.kde.plasma.devicenotifier
+
+[Containments][165][Applets][187]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][165][Applets][188]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][165][Applets][189]
+immutability=1
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][165][Applets][190]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][165][Applets][191]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][165][Applets][192]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][165][Applets][193]
+immutability=1
+plugin=org.kde.plasma.volume
 
 [Containments][165][General]
-extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kscreen,touchpad,org.kde.plasma.diskquota,org.kde.plasma.katesessions,org.kde.plasma.weather
+extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kscreen,touchpad,org.kde.plasma.diskquota,org.kde.plasma.weather,org.kde.plasma.manage-inputmethod
 hiddenItems=org.kde.plasma.katesessions,org.kde.plasma.weather,org.kde.plasma.vault,org.kde.plasma.nightcolorcontrol,org.kde.plasma.diskquota,org.kde.plasma.clipboard,touchpad
-knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.battery
+knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod
 shownItems=org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.notifications
 
 [ScreenMapping]

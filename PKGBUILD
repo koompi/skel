@@ -1,6 +1,6 @@
 pkgname=koompi-skel
 pkgver=20220303
-pkgrel=1
+pkgrel=2
 pkgdesc="Default user home template for KOOMPI OS"
 arch=('any')
 url=https://koompi.org

@@ -2,11 +2,13 @@
 update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
 
 [ColorEffects:Disabled]
+ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
+Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -40,14 +42,6 @@ BackgroundAlternate=50,52,61
 BackgroundNormal=40,42,51
 DecorationFocus=82,148,226
 DecorationHover=82,148,226
-ForegroundActive=246,116,0
-ForegroundInactive=136,136,136
-ForegroundLink=49,91,239
-ForegroundNegative=237,21,21
-ForegroundNeutral=201,206,59
-ForegroundNormal=222,222,222
-ForegroundPositive=17,209,22
-ForegroundVisited=49,91,239
 
 [Colors:Selection]
 BackgroundAlternate=29,153,243
@@ -106,6 +100,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=82,148,226
 
 [General]
+ColorSchemeHash=5d7d98647da1fff5d30ec79cf06575e0aa5a93fb
 Name=Qogirdark-modified
 XftHintStyle=hintslight
 XftSubPixel=rgb
