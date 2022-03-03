@@ -6,6 +6,8 @@ arch=('any')
 url=https://koompi.org
 source=('koompi-skel::git+https://github.com/koompi/skel.git')
 md5sums=('SKIP')
+provides=('.bashrc' '.bash_profile')
+replaces=('.bashrc' '.bash_profile')
 
 package() {
     mkdir -p ${pkgdir}/etc
