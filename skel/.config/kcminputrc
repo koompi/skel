@@ -8,6 +8,7 @@ RepeatDelay=600
 RepeatRate=25
 
 [Mouse]
+X11LibInputXAccelProfileFlat=false
 cursorSize=30
 
 [Tmp]

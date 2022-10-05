@@ -7,6 +7,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][158]
 ItemGeometries-1024x768=
+ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=cd0a64b2-5b8e-45a9-97c5-d0eec8120fa6
 formfactor=0
@@ -40,10 +41,6 @@ length=7
 immutability=1
 plugin=launchpadPlasmaMod
 
-[Containments][159][Applets][161][Configuration][ConfigDialog]
-DialogHeight=660
-DialogWidth=880
-
 [Containments][159][Applets][161][Configuration][General]
 customButtonImage=file:///usr/share/icons/koompi/koompi-white.svg
 favoritesPortedToKAstats=true
@@ -53,6 +50,7 @@ numberRows=5
 spaceHeight=32
 spaceWidth=42
 useCustomButtonImage=true
+useCustomSizeGrid=true
 
 [Containments][159][Applets][161][Shortcuts]
 global=Alt+F1
@@ -70,7 +68,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][159][Applets][163][Configuration][General]
-launchers=applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop
+launchers=applications:firefox.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop
 
 [Containments][159][Applets][164]
 immutability=1
@@ -167,6 +165,9 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][165][Applets][174][Configuration]
+PreloadWeight=55
+
 [Containments][165][Applets][175]
 immutability=1
 plugin=touchpad
@@ -192,19 +193,22 @@ PreloadWeight=55
 
 [Containments][165][Applets][186]
 immutability=1
-plugin=org.kde.plasma.devicenotifier
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][165][Applets][186][Configuration]
+PreloadWeight=55
 
 [Containments][165][Applets][187]
 immutability=1
-plugin=org.kde.plasma.keyboardindicator
+plugin=org.kde.plasma.keyboardlayout
 
 [Containments][165][Applets][188]
 immutability=1
-plugin=org.kde.plasma.keyboardlayout
+plugin=org.kde.plasma.keyboardindicator
 
 [Containments][165][Applets][189]
 immutability=1
-plugin=org.kde.plasma.manage-inputmethod
+plugin=org.kde.plasma.vault
 
 [Containments][165][Applets][190]
 immutability=1
@@ -212,18 +216,35 @@ plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][165][Applets][191]
 immutability=1
-plugin=org.kde.plasma.notifications
+plugin=org.kde.plasma.volume
+
+[Containments][165][Applets][191][Configuration]
+PreloadWeight=55
 
 [Containments][165][Applets][192]
 immutability=1
-plugin=org.kde.plasma.vault
+plugin=org.kde.plasma.clipboard
 
 [Containments][165][Applets][193]
 immutability=1
-plugin=org.kde.plasma.volume
+plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][165][Applets][194]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
+[Containments][165][Applets][194][Configuration]
+PreloadWeight=55
+
+[Containments][165][Applets][195]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][165][Applets][195][Configuration]
+PreloadWeight=42
 
 [Containments][165][General]
-extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kscreen,touchpad,org.kde.plasma.diskquota,org.kde.plasma.weather,org.kde.plasma.manage-inputmethod
+extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.kscreen,touchpad,org.kde.plasma.diskquota,org.kde.plasma.katesessions,org.kde.plasma.weather,org.kde.plasma.manage-inputmethod
 hiddenItems=org.kde.plasma.katesessions,org.kde.plasma.weather,org.kde.plasma.vault,org.kde.plasma.nightcolorcontrol,org.kde.plasma.diskquota,org.kde.plasma.clipboard,touchpad
 knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.volume,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod
 shownItems=org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.notifications

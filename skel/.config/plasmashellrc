@@ -2,9 +2,6 @@
 eDP-1 Height 1080=404
 eDP-1 Width 1920=480
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
-
 [PlasmaViews][Panel 105][Defaults]
 thickness=32
 
@@ -24,6 +21,9 @@ thickness=32
 thickness=32
 
 [PlasmaViews][Panel 159][Horizontal1024]
+thickness=32
+
+[PlasmaViews][Panel 159][Horizontal1920]
 thickness=32
 
 [PlasmaViews][Panel 2][Defaults]
