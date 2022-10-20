@@ -1,3 +1,0 @@
-/home/live/.bash_profile: line 13: conditional binary operator expected
-/home/live/.bash_profile: line 13: syntax error near `1'
-/home/live/.bash_profile: line 13: `[[ -z :1 &&  -eq 1 ]] && exec startx'
