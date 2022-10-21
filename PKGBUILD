@@ -9,6 +9,6 @@ sha256sums=('5b2858d38c12ba4e99cb40b4adf621933938938fa5eee75738bb974e67094bc5')
 install="${pkgname}.install"
 
 package() {
-    install -dm755 "${pkgdir}"/etc/skel/{Desktop,Documents,Downloads,Music,Pictures,Public,Template,Videos}
+    install -dm755 "${pkgdir}"/etc/skel/{Desktop,Documents,Downloads,Music,Pictures,Public,Templates,Videos}
     cp -r -T "${srcdir}"/"${pkgname}"/ "${pkgdir}"/etc/skel/
 }
